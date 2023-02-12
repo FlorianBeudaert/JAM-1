@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Marvel';
+    src: url('../font/Marvel.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Marvel", sans-serif;
+    padding: 40px 0;
+    font-size: 60px;
+  }
+
+body {
+    background: url("../asset/win.jpg");
+    background-size: cover;
+}
+
+button {
+    padding: 15px 15px 10px 15px;
+    background-color: rgb(253, 189, 70);
+    border-radius: 5px;
+    color: #fefefe;
+    font-family: "Marvel", sans-serif;
+    font-size: 30px;
+    border: rgb(255, 220, 156) 3px solid;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 350px;
+}

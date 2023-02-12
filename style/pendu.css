@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Marvel";
+  src: url("../font/Marvel.ttf");
+}
+
+@font-face {
+  font-family: "Dialog";
+  src: url("../font/Dialog.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(44, 54, 70, 0.8);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(136, 149, 171, 0.8);
+  font-family: "Marvel", sans-serif;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+body {
+  background: url("../asset/pendu_background.png");
+  background-size: cover;
+}
+
+#letter p,
+#display p,
+#life {
+  color: white;
+  font-family: "Marvel", sans-serif;
+  text-transform: uppercase;
+}
+
+#life {
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#display {
+  gap: 10px;
+  background-color: rgba(27, 27, 27, 0.6);
+  border: 2px solid rgb(52, 52, 52);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+#letter {
+  display: flex;
+  justify-content: center;
+}
+
+#display p {
+  padding: 8px;
+}
+
+#letter > p {
+  padding: 15px;
+  border: 1px solid rgb(52, 52, 52);
+  background-color: rgba(27, 27, 27, 0.6);
+  font-size: 23px;
+}
+
+#letter > p:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#letter > p:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.display-container {
+  margin-top: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.letter-container {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+
+#dialog:not(button){
+  margin-top: 50px;
+  color: #fefefe;
+  font-family: "Dialog", sans-serif;
+  font-size: 18px;
+}
+
+.container-dialog {
+  display: flex;
+  background-color: rgba(27, 27, 27, 0.7);
+}
+
+button {
+  background-color: rgb(63, 63, 63);
+  border: 2px solid rgb(100, 99, 99);
+  border-radius: 3px;
+  padding: 5px;
+  color: #c6c6c6;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:active {
+  background-color: rgb(97, 97, 97);
+  border: 2px solid rgb(118, 118, 118);
+}

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Marvel";
+  src: url("../font/Marvel.ttf");
+}
+@font-face {
+  font-family: "Dialog";
+  src: url("../font/Dialog.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../asset/quiz.jpg");
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(81, 80, 80, 0.9);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(147, 147, 147);
+  font-family: "Marvel", sans-serif;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-family: "Dialog", sans-serif;
+  font-size: 17px;
+}
+
+.quiz {
+  margin-top: 300px;
+}
+
+.quiz-question {
+  background-color: rgba(232, 232, 232, 0.9);
+  border: rgb(255, 255, 255) 2px solid;
+  width: 534px;
+  height: 65px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-answer {
+  margin-bottom: 15px;
+  margin-right: 10px;
+  width: 260px;
+  height: 50px;
+  background-color: rgba(187, 187, 187, 0.9);
+  border: rgb(255, 255, 255) 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-group {
+  margin-top: 30px;
+  display: flex;
+}
+
+.second-group {
+  display: flex;
+}

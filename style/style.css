@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Marvel';
+    src: url('../font/Marvel.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+  background-color: rgb(1, 1, 1, 0.5);
+  height: 100vh;
+}
+
+.playbutton {
+  background-clip: text;
+  color: #fefefe;
+  font-family: 'Marvel', sans-serif;
+  padding: 5px;
+  animation: blink 1.5s infinite;
+  font-size: 50px;
+}
+
+
+.sitename {
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.title {
+  background-clip: text;
+  color: #cecece;
+  font-family: "Marvel", sans-serif;
+  padding: 5px;
+  font-size: 60px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+  @keyframes blink { 
+    0% {
+        visibility: hidden;
+      }
+      50% {
+        visibility: hidden;
+      }
+      100% {
+        visibility: visible;
+      }
+  }
+
+body {
+    background: url('../asset/index.jpg');
+    background-size: cover;
+}

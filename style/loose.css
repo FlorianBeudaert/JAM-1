@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Marvel';
+  src: url('../font/Marvel.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 125px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 15px 15px 10px 15px;
+  background-color: rgb(253, 70, 70);
+  border-radius: 5px;
+  color: #fefefe;
+  font-family: "Marvel", sans-serif;
+  font-size: 30px;
+  border: rgb(255, 156, 156) 3px solid;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+body {
+    background-color: black;
+}
